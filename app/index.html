@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NEUROVIBE | วิตามินเสริมบำรุงสมอง & Digital Planner</title>
+    <!-- Remix Icon (Modern UI Icons) -->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css" rel="stylesheet">
+    <!-- Custom Style Sheet -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Ambient Glow Backgrounds -->
+    <div class="ambient-bg">
+        <div class="glow-orb-1"></div>
+        <div class="glow-orb-2"></div>
+    </div>
+
+    <!-- Header Navigation -->
+    <header>
+        <div class="logo">
+            NEURO<span>VIBE</span>
+        </div>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="#products">วิตามิน & แพลนเนอร์</a></li>
+                <li><a href="#about">ทำไมต้อง NEUROVIBE</a></li>
+                <li><a href="#reviews">รีวิวจากผู้ใช้จริง</a></li>
+            </ul>
+        </nav>
+        <div class="header-actions">
+            <button class="cart-icon-btn cart-toggle-trigger" aria-label="Open shopping cart">
+                <i class="ri-shopping-bag-3-line"></i>
+                <span class="cart-count">0</span>
+            </button>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-tag">🧠 Bio-Hacking Your Productivity</div>
+        <h1>ปลดล็อกศักยภาพสมองสูงสุด ด้วย <span>วิตามินเสริมสมาธิ</span> และ <span>สมุดดิจิทัลแพลนเนอร์</span></h1>
+        <p>ยกระดับประสิทธิภาพสมองด้วยสูตรวิจัย nootropics พรีเมียมสำหรับการจดจ่อ ควบคู่กับการวางแผนตารางความคิดเชิงระบบเพื่อเข้าสู่โหมดการทำงานที่ดีที่สุดของคุณ</p>
+        <div class="hero-btns">
+            <a href="#products" class="btn-primary">เลือกชมสินค้าทั้งหมด</a>
+            <a href="#about" class="btn-secondary">อ่านผลลัพธ์วิจัย</a>
+        </div>
+    </section>
+
+    <!-- Why Neurovibe (About Section) -->
+    <section id="about" style="border-top: 1px solid var(--border-color); padding-top: 4rem;">
+        <div class="section-header">
+            <h2>ทำไมต้องคู่หู NEUROVIBE?</h2>
+            <p>ประสานพลังสุขภาพกายและพฤติกรรม เพื่อการทรานส์ฟอร์มขีดความสามารถการทำคะแนนและทำงานที่ดีที่สุดของคุณ</p>
+        </div>
+        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 2rem; margin-top: 2rem;">
+            <div style="background: rgba(255,255,255,0.02); border: 1px solid var(--border-color); padding: 2rem; border-radius: 12px; text-align: center;">
+                <div style="margin-bottom: 1.25rem; height: 64px; display: flex; align-items: center; justify-content: center;">
+                    <img src="assets/nootropic_dna.png" alt="สูตร Nootropic สมาธิสูง" style="height: 64px; object-fit: contain;">
+                </div>
+                <h3 style="margin-bottom: 0.5rem;">สูตร Nootropic สมาธิสูง</h3>
+                <p style="color: var(--text-secondary); font-size: 0.95rem;">กระตุ้นสารสื่อประสาท เพื่อการเรียนรู้ การจำ และเพิ่มการจดจ่อโดยปราศจากอาการใจสั่น</p>
+            </div>
+            <div style="background: rgba(255,255,255,0.02); border: 1px solid var(--border-color); padding: 2rem; border-radius: 12px; text-align: center;">
+                <div style="margin-bottom: 1.25rem; height: 64px; display: flex; align-items: center; justify-content: center;">
+                    <img src="assets/time_blocking_chart.png" alt="Digital Time-Blocking" style="height: 64px; object-fit: contain;">
+                </div>
+                <h3 style="margin-bottom: 0.5rem;">Digital Time-Blocking</h3>
+                <p style="color: var(--text-secondary); font-size: 0.95rem;">จัดตารางสมองด้วยวิธีการจดเพื่อโฟกัสอย่างเป็นระบบ เพิ่มประสิทธิภาพมากกว่าปกติ 2 เท่า</p>
+            </div>
+            <div style="background: rgba(255,255,255,0.02); border: 1px solid var(--border-color); padding: 2rem; border-radius: 12px; text-align: center;">
+                <div style="margin-bottom: 1.25rem; height: 64px; display: flex; align-items: center; justify-content: center;">
+                    <img src="assets/review_star.png" alt="ผลลัพธ์ผ่านการรีวิว" style="height: 64px; object-fit: contain;">
+                </div>
+                <h3 style="margin-bottom: 0.5rem;">ผลลัพธ์ผ่านการรีวิว</h3>
+                <p style="color: var(--text-secondary); font-size: 0.95rem;">ผลิตภัณฑ์ที่มีคะแนนรีวิว 5 ดาวล้นหลามจากนักพัฒนา, คอนเทนต์ครีเอเตอร์ และคนวัยทำงาน</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Products Catalog Section -->
+    <section id="products" style="border-top: 1px solid var(--border-color); padding-top: 4rem;">
+        <div class="section-header">
+            <h2>ผลิตภัณฑ์เพิ่มความ Productive</h2>
+            <p>เลือกไอเท็มสำหรับการบำรุงประสาท และจัดระบบวันเวลาของคุณ</p>
+        </div>
+
+        <!-- Filter Tab Buttons -->
+        <div class="filter-tabs">
+            <button class="filter-tab-btn active" data-category="all">สินค้าทั้งหมด</button>
+            <button class="filter-tab-btn" data-category="vitamins">วิตามินบำรุงสมอง (Physical)</button>
+            <button class="filter-tab-btn" data-category="planners">Digital Planner (Download)</button>
+        </div>
+
+        <!-- Catalog Grid -->
+        <div class="product-grid" id="product-grid">
+            <!-- Rendered dynamically by app.js -->
+        </div>
+    </section>
+
+    <!-- Reviews Carousel Section -->
+    <section id="reviews" class="reviews-section">
+        <div class="section-header">
+            <h2>เสียงตอบรับจากผู้ใช้จริง</h2>
+            <p>นี่คือเหตุผลที่พวกเขายืนยันว่า NEUROVIBE ช่วยเพิ่มประสิทธิภาพและเปลี่ยนวันทำงานแบบเดิม ๆ</p>
+        </div>
+        <div class="reviews-container">
+            <div class="review-slide">
+                <div class="review-stars" id="review-stars-container">
+                    <!-- Rendered by app.js -->
+                </div>
+                <div class="review-text" id="review-text-element">
+                    <!-- Rendered by app.js -->
+                </div>
+                <div class="review-author" id="review-author-name">
+                    <!-- Rendered by app.js -->
+                </div>
+                <div class="review-author-title" id="review-author-title">
+                    <!-- Rendered by app.js -->
+                </div>
+            </div>
+            <div class="carousel-nav">
+                <button class="carousel-btn" id="prev-review-btn" aria-label="Previous review">
+                    <i class="ri-arrow-left-s-line"></i>
+                </button>
+                <button class="carousel-btn" id="next-review-btn" aria-label="Next review">
+                    <i class="ri-arrow-right-s-line"></i>
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Slide-out Shopping Cart Panel -->
+    <div class="drawer-overlay" id="drawer-overlay"></div>
+    <div class="cart-drawer" id="cart-drawer">
+        <div class="cart-header">
+            <h3>ตะกร้าสินค้า</h3>
+            <button class="close-cart-btn cart-toggle-trigger" aria-label="Close cart">
+                <i class="ri-close-line"></i>
+            </button>
+        </div>
+        <div class="cart-items" id="cart-items-container">
+            <!-- Rendered by app.js -->
+        </div>
+        <div class="cart-summary">
+            <div class="summary-row">
+                <span>ยอดรวมสินค้า</span>
+                <span id="cart-subtotal">฿0</span>
+            </div>
+            <div class="summary-row">
+                <span>ค่าจัดส่ง (วิตามินเท่านั้น)</span>
+                <span id="cart-shipping">฿0</span>
+            </div>
+            <div class="summary-row total">
+                <span>ยอดชำระทั้งหมด</span>
+                <span id="cart-total">฿0</span>
+            </div>
+            <button class="btn-primary checkout-btn" id="checkout-trigger">ดำเนินการสั่งซื้อ</button>
+        </div>
+    </div>
+
+    <!-- Simulated Checkout Modal -->
+    <div class="modal-overlay" id="modal-overlay">
+        <div class="modal-content">
+            <button class="modal-close-btn" id="close-modal-btn" aria-label="Close modal">
+                <i class="ri-close-line"></i>
+            </button>
+            
+            <!-- Checkout Form View -->
+            <form id="checkout-form">
+                <h3>ดำเนินการสั่งชำระเงิน</h3>
+                <div class="form-note">
+                    <i class="ri-information-line"></i>
+                    <span id="form-note-text"></span>
+                </div>
+                <div class="form-group">
+                    <label for="checkout-name">ชื่อ - นามสกุล</label>
+                    <input type="text" id="checkout-name" required placeholder="สมชาย รักเรียน">
+                </div>
+                <div class="form-group">
+                    <label for="checkout-email">อีเมล (เพื่อรับลิงก์ดาวน์โหลดสมุดแพลนเนอร์)</label>
+                    <input type="email" id="checkout-email" required placeholder="somchai@example.com">
+                </div>
+                <div class="form-group" id="address-form-group">
+                    <label for="checkout-address">ที่อยู่สำหรับจัดส่ง (วิตามินเสริมบำรุงสมอง)</label>
+                    <textarea id="checkout-address" rows="3" placeholder="เลขที่ ถนน แขวง เขต จังหวัด รหัสไปรษณีย์"></textarea>
+                </div>
+                <button type="submit" class="btn-primary" style="width: 100%; margin-top: 1rem;">ยืนยันคำสั่งซื้อ (ชำระจำลอง)</button>
+            </form>
+
+            <!-- Success State View -->
+            <div id="checkout-success-view" class="checkout-success" style="display: none;">
+                <div class="success-icon">
+                    <i class="ri-checkbox-circle-fill"></i>
+                </div>
+                <h4>คำสั่งซื้อของคุณเสร็จสมบูรณ์!</h4>
+                <p>เราส่งใบยืนยันรายการสั่งซื้อไปให้คุณ <strong id="success-customer-name"></strong> ที่อีเมล <strong id="success-customer-email"></strong> แล้ว</p>
+                
+                <div class="download-box" id="digital-downloads-container">
+                    <h5>🔗 ลิงก์ดาวน์โหลดไฟล์ดิจิทัลแพลนเนอร์ของคุณ:</h5>
+                    <div id="success-downloads-list">
+                        <!-- Rendered by app.js -->
+                    </div>
+                </div>
+                <button class="btn-secondary" onclick="closeCheckoutModal()" style="width: 100%; margin-top: 1.5rem;">กลับไปหน้าหลัก</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-logo">NEUROVIBE</div>
+        <p>© 2026 NEUROVIBE. All rights reserved. มุ่งมั่นพัฒนาขีดจำกัดความสามารถและการเรียนรู้ของสมองเชิงวิทยาศาสตร์</p>
+    </footer>
+
+    <!-- App Javascript Logic -->
+    <script src="app.js"></script>
+</body>
+</html>
